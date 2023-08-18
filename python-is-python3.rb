@@ -3,13 +3,13 @@ class PythonIsPython3 < Formula
   homepage ""
   url "https://raw.githubusercontent.com/octoturt/homebrew-repository/main/python-is-python3-1.0.0.tar.gz"
   version "v1.0.0"
-  sha256 "eadb5db35836c0eb9d31ce6e4b64fe8abf6077ad800cce6c7ae1e2bd4b8e2ead"
+  sha256 "7df7c3b6d584b8a5990fca9da72a92936b541885abff9514b2a3cbf3104e5552"
   license ""
 
   # depends_on "cmake" => :build
 
   def install
-    system "/bin/ln -s $BREW_PREFIX/bin/python3 ./python"
+    system "/bin/bash ./linker.sh"
     bin.install "python"
   end
 end
