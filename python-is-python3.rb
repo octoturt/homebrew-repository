@@ -1,9 +1,9 @@
 class PythonIsPython3 < Formula
   desc "python3 to python symlink"
   homepage ""
-  url "https://raw.githubusercontent.com/octoturt/homebrew-repository/main/python-is-python3-1.0.0.tar.gz"
+  url "https://github.com/octoturt/python-is-python3/archive/refs/tags/v1.0.0.tar.gz"
   version "v1.0.0"
-  sha256 "7df7c3b6d584b8a5990fca9da72a92936b541885abff9514b2a3cbf3104e5552"
+  sha256 "9ea08f854dcbe24dac92aaf0eba0237e2be8a86536196ebfe8f0a68d3b9e1265"
   license ""
 
   depends_on "python3"
