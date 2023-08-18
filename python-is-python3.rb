@@ -6,7 +6,7 @@ class PythonIsPython3 < Formula
   sha256 "7df7c3b6d584b8a5990fca9da72a92936b541885abff9514b2a3cbf3104e5552"
   license ""
 
-  # depends_on "cmake" => :build
+  depends_on "python3"
 
   def install
     system "/bin/bash ./linker.sh"
