@@ -3,7 +3,7 @@ class PythonIsPython3 < Formula
   homepage ""
   url "https://raw.githubusercontent.com/octoturt/homebrew-repository/main/empty.tar.gz"
   version "v1.0.0"
-  sha256 "b3deb37dc0b1e087fd9a322d69c158472ba023cbb15f74b720fc3a0710854499"
+  sha256 "11e00a6889de11444549026680fe5fd48d06fe9865442da9edad5483528ec915"
   license ""
 
   # depends_on "cmake" => :build
