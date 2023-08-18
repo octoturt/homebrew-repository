@@ -9,5 +9,5 @@ A repository for [Homebrew](https://brew.sh) to hold packages I've created.
 
         % brew tap octoturt/repository
 
-## List of formulas
+## List of formulae
 - [`python-is-python3`](https://github.com/octoturt/python-is-python3/tree/main) - Symlinks `python` to `python3` in Homebrew's path
