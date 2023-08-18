@@ -9,6 +9,7 @@ class PythonIsPython3 < Formula
   # depends_on "cmake" => :build
 
   def install
-    system "ln -s #{prefix}/bin/python3 #{prefix}/bin/python"
+    system "/bin/ln -s #{HOMEBREW_PREFIX}/bin/python3 #{prefix}/bin/python"
+    bin.install "python"
   end
 end
